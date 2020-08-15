@@ -1,0 +1,802 @@
+* {
+    margin:0vw;
+    padding: 0vw;
+}
+
+        .home{
+    height: 100vh;
+}
+.home{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('resources/background.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transform: linear-gradient(rbg(0,0,0));
+    background-attachment: fixed;
+}
+
+.container{
+    width: 100%;
+    background: black;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    margin-bottom: 2vw;
+}
+.dd_container{
+    margin: auto;
+    width:90%;
+    height: 3.7vw;
+    vertical-align: middle;
+}
+
+.logo_container{
+    width: 7%;
+    height: 100%;
+    padding-top: 0.3vw;
+    display:inline-block;
+    margin-left: 1vw;
+
+}
+
+.title_container{
+    width: 35%;
+    margin: auto;
+    display:inline-block;
+    text-align: left;
+    vertical-align:top;
+}
+
+.title{
+    font-size:2.5vw;
+    margin: auto;
+    vertical-align: top;
+    color: #d4b11d;
+    font-family: "Lobster";
+}
+
+.menu_container{
+    width:50%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    margin-left: 3vw;
+}
+
+.menu_list{
+    list-style-type: none;
+        position: relative;
+}
+
+.menu_block li{
+    position: relative;
+}
+
+.menu_block{
+    display:inline-block;
+    width: 12%;
+    margin: 1vw;
+    font-size:1.5vw;
+    font-family: 'Kaushan Script', cursive;
+    color:floralwhite;
+    text-align: center;
+    height: auto;
+    font-weight: 600;
+}
+
+.menu_blocke{
+    display:inline-block;
+    width: 15%;
+    margin: 1vw;
+    font-size:1.5vw;
+    font-family: 'Kaushan Script', cursive;
+    color:floralwhite;
+    text-align: center;
+    height: auto;
+    font-weight: 600;
+}
+
+.menu_block:active,
+.menu_block:hover{
+    color:#d4b11d;
+    text-decoration:line-through;
+    transition: color 1s, font-size 1s;
+    
+}
+.menu_blocke:active,
+.menu_blocke:hover{
+    color:#d4b11d;
+    text-decoration:line-through;
+    transition: color 1s, font-size 1s;
+    
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.homepage{
+    padding-top: 7vw;
+}
+
+
+.homepage img{
+    width: 50vw;
+    height:35vw;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 50vw;
+  position: relative;
+    display:inline-block;
+    text-align: right;
+    margin-left: 2vw;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.homebox{
+        width: 40%;
+    display:inline-block;
+    vertical-align:top;
+    text-align:left;
+    background: rgba(242, 242, 242, 0.17);
+    margin-left: 3vw;
+    background-size: 100% 100%;
+    padding:2vw;
+}
+    .homebox_text h2{
+        font-size:2.89vw;
+        color: white;
+        font-family: "Dancing Script";
+        vertical-align: middle;
+    }
+
+.homebox_text{
+            vertical-align:bottom;
+        margin-bottom: 3vw;
+}
+
+.homebox_buttons{
+    vertical-align: bottom;
+    width: 95%;
+    margin-left: 3.5vw;
+    margin-bottom: 0.8vw;
+}
+
+.homebox_buttons a:link,
+.homebox_buttons a:visited{
+    color: black;
+}
+
+.button{
+    background: #d4b11d;
+    border-radius: 100px;;
+    width:42%;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 0.7vw;
+    vertical-align: middle;
+    margin-right: 0.5vw;
+    font-family: "Oswald";
+}
+
+.button:hover{
+    color: white;
+    background: #e67e22;
+    transition: color 0.5s, background 0.5s;
+}
+
+.icon{
+    font-size:2vw;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.homebox_image{
+    margin-bottom: 4vw;
+}
+
+.image_row{
+    width: 95%;
+    margin-left: 2vw;
+    overflow: hidden;
+
+}
+
+.image_row img{
+
+    width: 100%;
+    height: 8vw;
+    padding: 0vw;
+    display: inline-block;
+    margin: 0vw -0.2vw 0vw -0.2vw;
+    opacity: 0.7;
+    transform: scale(1.15);
+    overflow: hidden;
+}
+
+.image_row img:hover{
+    transform: scale(1.0);
+    opacity: 1;
+    transition: transform 0.5s,opacity 0.5s;
+    
+}
+
+.hbi{
+    width: 32%;
+    overflow: hidden;
+    display: inline-block;
+    margin: -0.3vw -0.3vw -0.3vw -0.3vw;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 1vw;
+  padding: 0.6vw 1vw;
+
+  bottom: 0.6vw;
+  width: 100%;
+  text-align: center;
+    background: rgba(0, 0, 0, 0.75);
+    font-family: "Pacifico";
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 1.2vw;
+  padding: 0.6vw 1vw;
+  position: absolute;
+  top: 0;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.67);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+
+  height: 1vw;
+  width: 1vw;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+    margin-top: 1vw;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+    rgba(232, 218, 200, 0.67)
+    .about{
+        background: white;
+        padding: 2.5vw;
+    }
+    
+    .about_title{
+        font-size: 3vw;
+        text-align: center;
+        color: #e67e22;
+        font-family: "Architects Daughter";
+        margin-bottom: 5vw;
+        margin-top: 3vw;
+        }
+
+.about_title:after{
+    display: block;
+    content: " ";
+    width: 7vw;
+    text-align: center;
+    border-bottom: 3px solid #e67e22;
+    height: 1px;
+    margin: auto;
+}
+
+.about_info{
+    margin-top: 3vw;
+    margin: auto;
+    text-align: center;
+}
+
+.block_icon{
+    font-size: 3vw;
+    text-align: left;
+    color: #e67e22;
+    margin-bottom: 2vw;
+}
+.info_block{
+    width: 20%;
+    display: inline-block;
+    margin-top: 2vw;
+    margin-right: 3vw;
+    vertical-align: top;
+}
+
+.block_info{
+    width: 95%;
+    text-align: justify;
+    color: black;
+    font-family: "Baloo Tamma 2";
+    font-size: 1.2vw;
+    margin-top: 1vw;
+    font-weight: 100;
+    margin-right: 2vw;
+    margin-left: 0vw;
+}
+
+.icon_des{
+    font-size: 1.5vw;
+    text-align: left;
+    color: black;
+    font-weight: 100;
+}
+
+.about_intro{
+    width:95%;
+    margin: auto;
+    font-family: "Baloo Tamma 2";
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+    
+/*--------------------------------------------------------------------------------------------------*/
+
+.section-meals {
+    padding: 2vw;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.menu{
+    
+    background: #c9af98;
+    padding-bottom: 3vw;
+
+}
+
+.menu_title{
+    color: #3a4660;
+    font-size: 3vw;
+        text-align: center;
+    font-family: "Architects Daughter";
+        padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.menu_title:after{
+    display: block;
+    content: " ";
+    width: 4.5vw;
+    text-align: center;
+    border-bottom: 3px solid #3a4660;
+    height: 1px;
+    margin: auto;
+    }
+
+.note{
+    color: #3a4660;
+    font-size: 3vw;
+        text-align: center;
+    font-family: "Architects Daughter";
+    padding-bottom: 3vw;
+}
+
+.menupage_container{
+    width: 97%;
+    margin:auto;
+}
+
+.menupage_block_row{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1vw;
+    text-align: center;
+}
+
+.menupage_block{
+    width: 22%;
+    margin: auto;
+    margin-right: 1vw;
+    padding: 0.5vw;
+    background: #c9af98;
+    border-radius: 50px;
+    display: inline-block;
+    border: 5px solid #3a4660;
+}
+
+.menupage_block_title{
+    text-align: center;
+    font-family: "Lobster";
+    font-size:2.5vw;
+        font-family: "Pacifico";
+    color:#3a4660;
+}
+
+.menupage_block_des{
+    color:#3a4660;
+  font-size: 1vw;
+  padding: 0.6vw 1vw;
+  bottom: 0.6vw;
+  width: 100%;
+  text-align: center;
+    font-family: "Pacifico";
+}
+
+.menupage_block_image{
+    margin-top: 1vw;
+    margin-bottom:1vw;
+    width: 10vw;
+    height: 9vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menupage_block_button{
+    text-align: center;
+    width: 30%;
+        margin: auto;
+    display: block;
+    padding: 1vw;
+    font-size: 1.5vw;
+    border-radius: 100px;
+    background: #c9af98;
+    font-family: "Dancing Script";
+    border: 2px solid #3a4660;
+}
+
+.menupage_block_button:hover{
+    background: #3a4660;
+    color: #c9af98;
+    transition: background 0.5s,color 0.5s;
+}
+
+.buttonbox{
+    width:30%;
+    margin: auto;
+    padding-top: 4vw;
+}
+
+.orderbutton{
+    text-align: center;
+    width: 100%;
+        margin: auto;
+    padding: 1vw;
+    font-size: 1.5vw;
+    border-radius: 100px;
+    background: #3a4660;
+    font-family: "Dancing Script";
+    border: 2px solid #3a4660;
+        color: #c9af98;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+    display: block;
+    margin-bottom: 3vw;
+}
+
+
+.orderbutton:hover{
+    background: #c9af98;
+    border: 2px solid #3a4660;
+    color: #3a4660;
+    transition: background 0.5s, color 0.5s;
+}
+
+/*----------------------------------- Contact ------------------------------------*/
+
+
+.contact{
+    background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)),url('background_contact.jpg');
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.contact_title{
+    color: #939393;
+    font-size: 3.5vw;
+    text-align: center;
+    font-family: "Dancing Script";
+    padding: 2vw;
+}
+
+
+.feedback{
+    width: 100%;
+    display:block;
+    margin:auto;
+    margin-top: 3vw;
+    padding-bottom: 4vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact_container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+    width: 50%;
+    margin:auto;
+    display: inline-block;
+    margin-left: 3vw;
+    margin-top: 5vw;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.contact_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.contact_info{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: auto;
+    margin-left: 5vw;
+    
+}
+
+.contact_logo img{
+    width:20%;
+    display: block;
+    margin: auto;
+}
+
+.info_icon{
+    display: inline-block;
+    font-size: 2vw;
+    color: #939393;
+    vertical-align: bottom;
+    margin: 0.2vw;
+}
+
+.info{
+    font-size:1.5vw;
+    color: #939393;
+    display: inline-block
+}
+.phno{
+    margin: 1vw;
+    display: block;
+}
+
+.infocont{
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.info1{
+    font-size: 1.5vw;
+    display: inline-block;
+    vertical-align: top;
+    color: #939393;
+}
+
+.infoadd{
+    text-align: justify;
+    margin-top: 1vw;
+    border: 3px solid #939393;
+    border-radius: 25px;
+    padding:0.8vw
+}
+
+.info_icon1{
+    display: inline-block;
+    font-size: 1.5vw;
+    color: #939393;
+    vertical-align: bottom;
+    margin: 0.2vw;
+    text-align: left;
+}
+
+.info2{
+    font-size: 1.5vw;
+    display: inline-block;
+    vertical-align: middle;
+    color: #939393;
+}
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.5vw;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited, 
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #00aced;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover {
+    color: #517fa4;
+}
+
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
