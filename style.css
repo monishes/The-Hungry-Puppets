@@ -7,7 +7,7 @@
     height: 100vh;
 }
 .home{
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('resources/background.jpg');
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('background.jpg');
     background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
